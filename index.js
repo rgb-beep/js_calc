@@ -18,7 +18,6 @@ document.body.addEventListener("click", function (event) {
     }
 });
 
-
 for (i = 9; i>=0; i--){
     var newButton = document.createElement("button")
     newButton.textContent = i
