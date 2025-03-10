@@ -26,7 +26,7 @@ for (i = 9; i>=0; i--){
     keypad.appendChild(newButton)
 }
 
-const operators = ["+","-","x","/",".","Clear","<--","="]
+const operators = ["+","-","*","/",".","Clear","<--","="]
 for (i = 0; i<operators.length; i++){
     var newButton = document.createElement("button")
     newButton.textContent = operators[i]
