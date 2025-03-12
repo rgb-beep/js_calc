@@ -11,6 +11,9 @@ document.body.addEventListener("click", function (event) {
             case "Clear":
                 display.textContent = ""
                 break
+            case "<--":
+                display.textContent = display.textContent.slice(0,-1)
+                break
             default: 
                 display.textContent += event.target.textContent
             
